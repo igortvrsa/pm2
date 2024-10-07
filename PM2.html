@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagensseparadaspm2/android-chrome-512x512.png" type="image/x-icon">
+    <title>Vídeo e Imagens</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background-color: #000; /* Fundo preto */
+            color: #fff; /* Texto branco para contraste */
+            padding: 20px;
+        }
+        .video-container {
+            margin-bottom: 20px;
+            text-align: center;
+            width: 100%;
+            max-width: 1000px; /* Ajuste o tamanho máximo conforme necessário */
+        }
+        .video-container video {
+            width: 100%;
+            height: auto;
+            max-height: 500px; /* Ajuste a altura máxima do vídeo conforme necessário */
+            object-fit: cover;
+            border: 2px solid #fff; /* Borda branca ao redor do vídeo para destaque */
+        }
+        .images-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+            width: 100%;
+            max-width: 1000px; /* Ajuste a largura máxima conforme necessário */
+            padding: 10px;
+        }
+        .images-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+            object-fit: cover;
+            border: 2px solid #fff; /* Borda branca ao redor das imagens para destaque */
+        }
+        @media (max-width: 600px) {
+            .video-container {
+                max-width: 100%;
+            }
+            .images-container {
+                grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* Ajuste as imagens para telas menores */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="video-container">
+        <video controls>
+            <source src="imagens pm2/videosete.mp4" type="video/mp4">
+            Seu navegador não suporta o formato de vídeo.
+        </video>
+    </div>
+    <div class="images-container">
+        <img src="https://raw.githubusercontent.com/igortvrsa/pm2/main/forumdasaudeimagem1.jpg" alt="Imagem 1">
+        <img src="https://raw.githubusercontent.com/igortvrsa/pm2/main/forumdasaudeimagem2.jpg" alt="Imagem 2">
+        <img src="https://raw.githubusercontent.com/igortvrsa/pm2/main/forumdasaudeimagem3.jpg" alt="Imagem 1">
+        <img src="https://raw.githubusercontent.com/igortvrsa/pm2/main/forumdasaudeimagem4-960.png" alt="Imagem 1">
+        <img src="https://raw.githubusercontent.com/igortvrsa/pm2/main/forumdasaudeimagem5.jpg" alt="Imagem 1">
+        <img src="https://raw.githubusercontent.com/igortvrsa/pm2/main/forumdasaudeimagem6-960.jpg" alt="Imagem 1">
+        <img src="https://raw.githubusercontent.com/igortvrsa/pm2/main/forumdasaudeimagem7.jpg" alt="Imagem 1">
+        <img src="https://raw.githubusercontent.com/igortvrsa/pm2/main/forumdasaudeimagem8.jpg" alt="Imagem 1">
+        <img src="https://raw.githubusercontent.com/igortvrsa/pm2/main/forumdasaudeimagem9.jpg" alt="Imagem 1">
+        <img src="https://raw.githubusercontent.com/igortvrsa/pm2/main/forumdasaudeimagem10.jpg" alt="Imagem 1">
+        <img src="https://raw.githubusercontent.com/igortvrsa/pm2/main/forumdasaudeimagem11.jpg" alt="Imagem 1">
+        <img src="https://raw.githubusercontent.com/igortvrsa/pm2/main/forumdasaudeimagem12.jpg" alt="Imagem 1">
+        
+        <img src="https://raw.githubusercontent.com/igortvrsa/pm2/main/churrascadaimagem1.jpg"
+        alt="Imagem 1">
+        <img src="https://raw.githubusercontent.com/igortvrsa/pm2/main/churrascadaimagem2.jpg
+        " alt="Imagem 1">
+        <img src="https://raw.githubusercontent.com/igortvrsa/pm2/main/churrascadaimagem3-960.jpg
+        " alt="Imagem 1">
+        <img src="https://raw.githubusercontent.com/igortvrsa/pm2/main/churrascadaimagem4.jpg
+        " alt="Imagem 1">
+        <img src="https://raw.githubusercontent.com/igortvrsa/pm2/main/churrascadaimagem5.jpg
+        " alt="Imagem 1">
+        
+        <img src="https://raw.githubusercontent.com/igortvrsa/pm2/main/imagemled1redm.jpg" alt="Imagem 1">
+        <img src="https://raw.githubusercontent.com/igortvrsa/pm2/main/imagemled2red.jpg" alt="Imagem 1">
+        <img src="https://raw.githubusercontent.com/igortvrsa/pm2/main/imagemled3red.jpg" alt="Imagem 1">
+        <img src="https://raw.githubusercontent.com/igortvrsa/pm2/main/imagemled10red.jpg" alt="Imagem 1">
+        <img src="https://raw.githubusercontent.com/igortvrsa/pm2/main/imagemled8red.jpg" alt="Imagem 1">
+        <img src="https://raw.githubusercontent.com/igortvrsa/pm2/main/imagemled6red.jpg" alt="Imagem 1">
+        
+         <img src="https://raw.githubusercontent.com/igortvrsa/pm2/main/clientes1280.jpg
+         " alt="Imagem 1">
+    </div>
+</body>
+</html>
